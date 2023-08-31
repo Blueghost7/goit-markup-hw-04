@@ -146,6 +146,9 @@ button {
 
 .hero-section {
     background-color: #2E2F42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+        url('../images/bkg/people-office-bkg.jpg');
+    background-size: cover;
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -219,9 +222,25 @@ button {
     gap: 24px;
 }
 
+.advantages-icons-container {
+    display: block;
+    padding: 24px 100px;
+    margin-bottom: 8px;
+}
+
 .advantages-item {
     width: calc((100%-24*3)/4);
 }
+
+.advantages-icons-container {
+
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    border: 1px solid #8E8F99;
+    background: #F4F4FD;
+}
+
 
 .advantages-section-item-title {
     font-size: 20px;
@@ -295,6 +314,24 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     background-color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.our-team-icons-list {
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+}
+
+.our-team-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+
+.our-team-item {
+    padding: 12px
 }
 
 /* Our portfolio section */
