@@ -261,18 +261,16 @@ button {
     gap: 24px;
 }
 
-.advantages-icons-container {
-    display: block;
-    padding: 24px 100px;
-    margin-bottom: 8px;
-}
-
 .advantages-item {
     width: calc((100%-24*3)/4);
 }
 
 .advantages-icons-container {
-
+    display: flex;
+    padding: 24px 100px;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: center;
     width: 264px;
     height: 112px;
     border-radius: 4px;
