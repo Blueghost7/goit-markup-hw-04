@@ -91,11 +91,6 @@ button {
     align-items: center;
 }
 
-/* .header-nav-list {
-    position: relative;
-    color: #404bbf;
-} */
-
 .header-nav-item {
     font-size: 16px;
     font-weight: 500;
@@ -186,6 +181,7 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .hero-section-title {
@@ -267,7 +263,6 @@ button {
 
 .advantages-icons-container {
     display: flex;
-    padding: 24px 100px;
     margin-bottom: 8px;
     align-items: center;
     justify-content: center;
